@@ -7,16 +7,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hola profe
+          Hola profe <a className="App-link" href="https://www.linkedin.com/in/antonio-gallardo/"
+                        target="_blank" rel="noopener noreferrer">Antonio</a>
         </p>
-        <a
-          className="App-link"
-          href="https://www.linkedin.com/in/antonio-gallardo/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        Antonio
-        </a>
       </header>
     </div>
   );
